@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B925E97F270A121B0027DCB6 /* CrosswordHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B925E97E270A121B0027DCB6 /* CrosswordHelperApp.swift */; };
+		B925E981270A121B0027DCB6 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B925E980270A121B0027DCB6 /* SearchView.swift */; };
+		B925E983270A121D0027DCB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B925E982270A121D0027DCB6 /* Assets.xcassets */; };
+		B925E986270A121D0027DCB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B925E985270A121D0027DCB6 /* Preview Assets.xcassets */; };
+		B925E991270A121D0027DCB6 /* CrosswordHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B925E990270A121D0027DCB6 /* CrosswordHelperTests.swift */; };
+		B925E99C270A121D0027DCB6 /* CrosswordHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B925E99B270A121D0027DCB6 /* CrosswordHelperUITests.swift */; };
+		B925E9AA270A12830027DCB6 /* wordlist in Resources */ = {isa = PBXBuildFile; fileRef = B925E9A9270A12830027DCB6 /* wordlist */; };
+		B96CD329270A61FF002ADAC8 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96CD328270A61FF002ADAC8 /* SafariView.swift */; };
+		B9D91858270A29580075D029 /* DefinitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D91857270A29580075D029 /* DefinitionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B925E98D270A121D0027DCB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B925E973270A121B0027DCB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B925E97A270A121B0027DCB6;
+			remoteInfo = CrosswordHelper;
+		};
+		B925E998270A121D0027DCB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B925E973270A121B0027DCB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B925E97A270A121B0027DCB6;
+			remoteInfo = CrosswordHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B925E97B270A121B0027DCB6 /* CrosswordHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrosswordHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B925E97E270A121B0027DCB6 /* CrosswordHelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordHelperApp.swift; sourceTree = "<group>"; };
+		B925E980270A121B0027DCB6 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		B925E982270A121D0027DCB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B925E985270A121D0027DCB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B925E987270A121D0027DCB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B925E98C270A121D0027DCB6 /* CrosswordHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrosswordHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B925E990270A121D0027DCB6 /* CrosswordHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordHelperTests.swift; sourceTree = "<group>"; };
+		B925E992270A121D0027DCB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B925E997270A121D0027DCB6 /* CrosswordHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrosswordHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B925E99B270A121D0027DCB6 /* CrosswordHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordHelperUITests.swift; sourceTree = "<group>"; };
+		B925E99D270A121D0027DCB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B925E9A9270A12830027DCB6 /* wordlist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; lineEnding = 0; path = wordlist; sourceTree = "<group>"; };
+		B96CD328270A61FF002ADAC8 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		B9D91857270A29580075D029 /* DefinitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B925E978270A121B0027DCB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B925E989270A121D0027DCB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B925E994270A121D0027DCB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B925E972270A121B0027DCB6 = {
+			isa = PBXGroup;
+			children = (
+				B925E97D270A121B0027DCB6 /* CrosswordHelper */,
+				B925E98F270A121D0027DCB6 /* CrosswordHelperTests */,
+				B925E99A270A121D0027DCB6 /* CrosswordHelperUITests */,
+				B925E97C270A121B0027DCB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B925E97C270A121B0027DCB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B925E97B270A121B0027DCB6 /* CrosswordHelper.app */,
+				B925E98C270A121D0027DCB6 /* CrosswordHelperTests.xctest */,
+				B925E997270A121D0027DCB6 /* CrosswordHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B925E97D270A121B0027DCB6 /* CrosswordHelper */ = {
+			isa = PBXGroup;
+			children = (
+				B925E9A9270A12830027DCB6 /* wordlist */,
+				B925E97E270A121B0027DCB6 /* CrosswordHelperApp.swift */,
+				B925E980270A121B0027DCB6 /* SearchView.swift */,
+				B925E982270A121D0027DCB6 /* Assets.xcassets */,
+				B925E987270A121D0027DCB6 /* Info.plist */,
+				B925E984270A121D0027DCB6 /* Preview Content */,
+				B9D91857270A29580075D029 /* DefinitionView.swift */,
+				B96CD328270A61FF002ADAC8 /* SafariView.swift */,
+			);
+			path = CrosswordHelper;
+			sourceTree = "<group>";
+		};
+		B925E984270A121D0027DCB6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B925E985270A121D0027DCB6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B925E98F270A121D0027DCB6 /* CrosswordHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				B925E990270A121D0027DCB6 /* CrosswordHelperTests.swift */,
+				B925E992270A121D0027DCB6 /* Info.plist */,
+			);
+			path = CrosswordHelperTests;
+			sourceTree = "<group>";
+		};
+		B925E99A270A121D0027DCB6 /* CrosswordHelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B925E99B270A121D0027DCB6 /* CrosswordHelperUITests.swift */,
+				B925E99D270A121D0027DCB6 /* Info.plist */,
+			);
+			path = CrosswordHelperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B925E97A270A121B0027DCB6 /* CrosswordHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B925E9A0270A121D0027DCB6 /* Build configuration list for PBXNativeTarget "CrosswordHelper" */;
+			buildPhases = (
+				B925E977270A121B0027DCB6 /* Sources */,
+				B925E978270A121B0027DCB6 /* Frameworks */,
+				B925E979270A121B0027DCB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrosswordHelper;
+			productName = CrosswordHelper;
+			productReference = B925E97B270A121B0027DCB6 /* CrosswordHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B925E98B270A121D0027DCB6 /* CrosswordHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B925E9A3270A121D0027DCB6 /* Build configuration list for PBXNativeTarget "CrosswordHelperTests" */;
+			buildPhases = (
+				B925E988270A121D0027DCB6 /* Sources */,
+				B925E989270A121D0027DCB6 /* Frameworks */,
+				B925E98A270A121D0027DCB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B925E98E270A121D0027DCB6 /* PBXTargetDependency */,
+			);
+			name = CrosswordHelperTests;
+			productName = CrosswordHelperTests;
+			productReference = B925E98C270A121D0027DCB6 /* CrosswordHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B925E996270A121D0027DCB6 /* CrosswordHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B925E9A6270A121D0027DCB6 /* Build configuration list for PBXNativeTarget "CrosswordHelperUITests" */;
+			buildPhases = (
+				B925E993270A121D0027DCB6 /* Sources */,
+				B925E994270A121D0027DCB6 /* Frameworks */,
+				B925E995270A121D0027DCB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B925E999270A121D0027DCB6 /* PBXTargetDependency */,
+			);
+			name = CrosswordHelperUITests;
+			productName = CrosswordHelperUITests;
+			productReference = B925E997270A121D0027DCB6 /* CrosswordHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B925E973270A121B0027DCB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B925E97A270A121B0027DCB6 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					B925E98B270A121D0027DCB6 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = B925E97A270A121B0027DCB6;
+					};
+					B925E996270A121D0027DCB6 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = B925E97A270A121B0027DCB6;
+					};
+				};
+			};
+			buildConfigurationList = B925E976270A121B0027DCB6 /* Build configuration list for PBXProject "CrosswordHelper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B925E972270A121B0027DCB6;
+			productRefGroup = B925E97C270A121B0027DCB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B925E97A270A121B0027DCB6 /* CrosswordHelper */,
+				B925E98B270A121D0027DCB6 /* CrosswordHelperTests */,
+				B925E996270A121D0027DCB6 /* CrosswordHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B925E979270A121B0027DCB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B925E9AA270A12830027DCB6 /* wordlist in Resources */,
+				B925E986270A121D0027DCB6 /* Preview Assets.xcassets in Resources */,
+				B925E983270A121D0027DCB6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B925E98A270A121D0027DCB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B925E995270A121D0027DCB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B925E977270A121B0027DCB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96CD329270A61FF002ADAC8 /* SafariView.swift in Sources */,
+				B925E981270A121B0027DCB6 /* SearchView.swift in Sources */,
+				B9D91858270A29580075D029 /* DefinitionView.swift in Sources */,
+				B925E97F270A121B0027DCB6 /* CrosswordHelperApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B925E988270A121D0027DCB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B925E991270A121D0027DCB6 /* CrosswordHelperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B925E993270A121D0027DCB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B925E99C270A121D0027DCB6 /* CrosswordHelperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B925E98E270A121D0027DCB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B925E97A270A121B0027DCB6 /* CrosswordHelper */;
+			targetProxy = B925E98D270A121D0027DCB6 /* PBXContainerItemProxy */;
+		};
+		B925E999270A121D0027DCB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B925E97A270A121B0027DCB6 /* CrosswordHelper */;
+			targetProxy = B925E998270A121D0027DCB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B925E99E270A121D0027DCB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B925E99F270A121D0027DCB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B925E9A1270A121D0027DCB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CrosswordHelper/Preview Content\"";
+				DEVELOPMENT_TEAM = G4BG5X47H7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CrosswordHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.civatrix.CrosswordHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B925E9A2270A121D0027DCB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CrosswordHelper/Preview Content\"";
+				DEVELOPMENT_TEAM = G4BG5X47H7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CrosswordHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.civatrix.CrosswordHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B925E9A4270A121D0027DCB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4BG5X47H7;
+				INFOPLIST_FILE = CrosswordHelperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.civatrix.CrosswordHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrosswordHelper.app/CrosswordHelper";
+			};
+			name = Debug;
+		};
+		B925E9A5270A121D0027DCB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4BG5X47H7;
+				INFOPLIST_FILE = CrosswordHelperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.civatrix.CrosswordHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrosswordHelper.app/CrosswordHelper";
+			};
+			name = Release;
+		};
+		B925E9A7270A121D0027DCB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4BG5X47H7;
+				INFOPLIST_FILE = CrosswordHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.civatrix.CrosswordHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrosswordHelper;
+			};
+			name = Debug;
+		};
+		B925E9A8270A121D0027DCB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4BG5X47H7;
+				INFOPLIST_FILE = CrosswordHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.civatrix.CrosswordHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrosswordHelper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B925E976270A121B0027DCB6 /* Build configuration list for PBXProject "CrosswordHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B925E99E270A121D0027DCB6 /* Debug */,
+				B925E99F270A121D0027DCB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B925E9A0270A121D0027DCB6 /* Build configuration list for PBXNativeTarget "CrosswordHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B925E9A1270A121D0027DCB6 /* Debug */,
+				B925E9A2270A121D0027DCB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B925E9A3270A121D0027DCB6 /* Build configuration list for PBXNativeTarget "CrosswordHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B925E9A4270A121D0027DCB6 /* Debug */,
+				B925E9A5270A121D0027DCB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B925E9A6270A121D0027DCB6 /* Build configuration list for PBXNativeTarget "CrosswordHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B925E9A7270A121D0027DCB6 /* Debug */,
+				B925E9A8270A121D0027DCB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B925E973270A121B0027DCB6 /* Project object */;
+}
